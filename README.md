@@ -14,10 +14,18 @@ Project URL:  [![Streamlit](https://img.shields.io/badge/Streamlit-%230077B5.svg
   - Description: The dataset consists of labeled comments categorized into three classes: Negative, Positive, and Neutral.
   - Preprocessing: Removed irrelevant columns and cleaned the text data by removing URLs, special characters, and stop words.
 
-### 2. Data Preprocessing
+### 2. Data Preprocessing & EDA
 - Text Cleaning: Removed URLs, special characters, and digits from comments. Normalized the text by converting it to lowercase.
 - Tokenization: Split comments into tokens (words or phrases) for further processing.
 - Stopword Removal: Removed common stopwords from comments using NLTK's stopwords corpus.
+  
+  ![image](https://github.com/Surendraprajapat18/Sentiment-Analysis/assets/97840357/e1f55af5-d71f-423a-a3d0-f2594d78d00e)
+
+      Dataset has:
+      - 22158: Negative sentiment
+      - 18950: Positive sentiment
+      - 36: Neutral sentiment
+
 
 ### 3. Model Selection
 - Model Selection: Choose Logistic Regression for sentiment analysis due to its simplicity, interpretability, and effectiveness with text data.
@@ -47,4 +55,8 @@ Project URL:  [![Streamlit](https://img.shields.io/badge/Streamlit-%230077B5.svg
 - Deployment: Deployed the trained model using Streamlit as a web application on Render Cloud.
 - Usage Instructions: Users can input text comments into the web app and click the "Predict Sentiment" button to obtain the predicted sentiment (Negative, Positive, or Neutral).
 - Project URL:  [![Streamlit](https://img.shields.io/badge/Streamlit-%230077B5.svg?logo=streamlit&logoColor=white)](https://sentiment-analysis-r6k1.onrender.com)
+- Preview of Web page:
+  
+![image](https://github.com/Surendraprajapat18/Sentiment-Analysis/assets/97840357/6dac67df-8266-43c7-ad34-537f5c17be6a)
+
 
