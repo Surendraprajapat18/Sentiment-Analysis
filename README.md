@@ -1,18 +1,21 @@
 # **<p align="center"><u>NLP for Sentiment-Analysis</u></p>**
 
 ## Introduction: 
-I need to build a sentiment analysis model using Natural Language 
-Processing (NLP) techniques. Sentiment analysis, also known as opinion mining, is a critical component in 
-many AI applications, including customer feedback analysis, social media monitoring, and more. Your task 
-is to create a sentiment analysis model capable of accurately classifying text data into positive, negative, 
-or neutral sentiments.
+I need to build a sentiment analysis model using Natural Language Processing (NLP) techniques. Sentiment analysis, also known as opinion 
+mining, is a critical component in many AI applications, including customer feedback analysis, social media monitoring, and more. Your task 
+is to create a sentiment analysis model to accurately classify text data into positive, negative, or neutral sentiments.
 
 Project URL:  [![Streamlit](https://img.shields.io/badge/Streamlit-%230077B5.svg?logo=streamlit&logoColor=white)](https://sentiment-analysis-r6k1.onrender.com)
 
 
 ### 1. Data Collection.
-  - Description: The dataset consists of labeled comments categorized into three classes: Negative, Positive, and Neutral.
-  - Preprocessing: Removed irrelevant columns and cleaned the text data by removing URLs, special characters, and stop words.
+  - The dataset consists of labeled comments categorized into three classes: Negative, Positive, and Neutral.
+  - Load the Dataset:
+  ```python
+  # Specify the encoding explicitly when reading the CSV file
+  df = pd.read_csv(r"C:\Users\suren\Downloads\NLP for Sentiment Analysis\Dataset\hate.csv", encoding='latin1')
+  ```
+  
 
 ### 2. Data Preprocessing & EDA
 - Text Cleaning: Removed URLs, special characters, and digits from comments. Normalized the text by converting it to lowercase.
