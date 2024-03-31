@@ -33,7 +33,7 @@ def predict_sentiment(input_text):
 
 
 def main():
-    st.markdown("# **<p align="center"><u>IoT-BASED SMART PARKING</u></p>**")
+    st.markdown("# **<p align="center"><u>NLP for Sentiment Analysis 📶 Prediction App</u></p>**")
     st.markdown("### By Surendra Prajapat")
 
     st.markdown("""#### Introduction:
