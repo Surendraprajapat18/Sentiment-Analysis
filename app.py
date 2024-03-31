@@ -35,6 +35,12 @@ def predict_sentiment(input_text):
 def main():
     st.title("NLP for Sentiment Analysis 📶 Prediction App")
     st.markdown("### By Surendra Prajapat")
+
+    st.markdown("""#### Introduction:
+    I need to build a sentiment analysis model using Natural Language Processing (NLP) techniques. Sentiment analysis, also known as opinion mining, 
+    is a critical component in many AI applications, including customer feedback analysis, social media monitoring, and more. Your task is to create 
+    a sentiment analysis model to accurately classify text data into positive, negative, or neutral sentiments.""")
+    
     
     
     # Add a text input field for user to input text
